@@ -16,7 +16,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL](https://your-solution-url.com)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/socialproofsection-html-css-grid-VqGwudgGwm)
 - Live Site URL: [live site URL](https://social-proof-section-div.netlify.app/)
 
 ## My process
