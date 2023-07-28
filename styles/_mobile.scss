@@ -1,0 +1,90 @@
+
+
+@media screen and (max-width: 1246px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85rem;
+
+    .user-counter {
+      p {
+        padding-right: 20rem;
+        padding-bottom: 5rem;
+      }
+    }
+
+    .reviews {
+      flex-direction: row;
+      gap: 2rem;
+
+      #first-review,
+      #second-review,
+      #third-review {
+        margin: 0;
+      }
+
+      .review {
+        width: 30rem;
+        flex-direction: column;
+        align-items: center;
+
+        .stars {
+          padding-bottom: 1rem;
+        }
+      }
+    }
+
+    .cards {
+      margin-top: 2rem;
+      gap: 1rem;
+
+      .card1 {
+        margin: 0px;
+      }
+      .card2 {
+        margin: 0px;
+      }
+      .card3 {
+        margin: 0px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  main {
+    height: 100%;
+    .user-counter {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 8rem 10rem 5rem 10rem;
+
+      p {
+        padding: 3rem 0rem 0rem 0rem;
+      }
+    }
+    .reviews {
+      flex-direction: column;
+
+      .review {
+        width: 50rem;
+      }
+    }
+    .cards {
+      flex-direction: column;
+    }
+  }
+}
+
+@media screen and (max-width: 510px) {
+  main {
+    .reviews {
+      .review {
+        width: 35rem;
+      }
+    }
+  }
+}
